@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <!--= Remixicons=-->
@@ -32,7 +34,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="index.html" class="nav__brand">
-                    <i class="ri-code-s-slash-line"></i>ARAVIND
+                    <i class=""></i>ARAVIND
                 </a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -43,10 +45,13 @@
                             <a href="#about" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#qualification" class="nav__link">Qualification</a>
+                            <a href="#education" class="nav__link">Qualification</a>
                         </li>
                         <li class="nav__item">
                             <a href="#project" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Achievements</a>
                         </li>
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Contact</a>
@@ -67,9 +72,14 @@
                 <div class="d-grid hero__wrapper">
                     <div class="hero__content">
                         <h1 class="hero__title">Hi, I am Aravind,<br>Student.</h1>
+                        <a href="assets/img/Resume - Aravind.pdf" class="btn btn--primary">Resume</a><br><br>
+                        <a class="fa fa-linkedin-square" href=https://www.linkedin.com/in/aravind-b-6a9901283/ style="font-size:30px"></a>
+			
+                        <a class="fa fa-github" href="https://github.com/Aravindh126" style="font-size:36px"></a>
                     </div>
-                    <img src="C:\Users\boopa\Downloads\aravind.img-removebg-preview.png" alt="Dave" class="hero__img">
+                    <img src="assets/img/aravindh-removebg-preview (1).png" alt="Dave" class="hero__img">
                 </div>
+               
             </div>
         </section>
 
@@ -84,7 +94,6 @@
                     <div class="about__content">
                         <h3 class="about__title">I'm a Student.</h3>
                         <p class="about__description">My name is Aravind. As a developer with a B.Tech in Computer Science and Business Systems (75.02%) from KIT, I specialize in Java, JavaScript, HTML, CSS, C, Python. My experience includes internships at Ether Infotech, Coimbatore , where I worked on full-stack and React-based projects. I'm most passionate about giving back to the community, and my goal is to pursue my passion.Altogether, I would sum up myself as an enthusiast and a hardworker; who would do anything to complete the task.</p>
-                        <a href="#" class="btn btn--primary">Know More</a>
                     </div>
                     <div class="skills">
                         <h3 class="skills__title">Technologies I've been working with:</h3>
@@ -124,43 +133,35 @@
         </section>
 
         <!--= Qualification =-->
-        <section id="qualification" class="section qualification">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Qualification</h2>
-                </div>
-                <!--= Education =-->
-                <div class="qualification__wrapper">
-                    <h3 class="qualification__name">
-                        <i class="ri-booklet-fill"></i>
-                        Education
-                    </h3>
-                    <div class="d-grid qualification__content">
-                        <!--= Education 1 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">B.Tech - CSBS</h3>
-                            <p class="qualification__description"> KIT-KALAIGNARKARUNANIDHI INSITUTE OF TECHNOLOGY.COIMBATORE Dt</p>
-                            <span class="qualification__date">2024 - CURRENT</span>
-                        </div>
-                        <!--= Education 2 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">HSC</h3>
-                            <p class="qualification__description"> VIVEKANANTHA MATRICULATION HIGHER SECONDARY SCHOOL. ERODE Dt-635112</p>
-                            <span class="qualification__date">2019 - 2021</span>
-                        </div>
-                        <!--= Education 3 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">SSLC</h3>
-                            <p class="qualification__description">VIVEKANANTHA MATRICULATION HIGHER SECONDARY SCHOOL. ERODE Dt-635112</p>
-                            <span class="qualification__date">2018 - 2019</span>
-                        </div>
+        <section class="education" id="education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SSLC</h3>
+                        <span>2019 - 2020</span>
+                        <p>Vivekanantha Matriculation Higher Secondary School,Erode</p>
                     </div>
                 </div>
-                <div class="qualification__footer">
-                    <p class="qualification__footer-text">See my full resume</p>
-                    <a href="assets/img/Resume - Aravind.pdf" class="btn btn--primary">Resume</a>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>HIGHER SECONDARY</h3>
+                        <span>2020 - 2022</span>
+                        <p>Vivekanantha Matriculation Higher Secondary School,Erode.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>COLLEGE</h3>
+                        <span>2024 current</span>
+                        <p>KIT-Kalaignar karunanithi Institute Of Technology,Coimbatore.</p>
+                    </div>
                 </div>
             </div>
+               
         </section>
 
         
@@ -176,25 +177,16 @@
                     <div class="project__content">
                         <img src="assets/img/ecommerce.jpg" alt="Agency Website" class="project__img">
                         <h3 class="project__title">E-commerce</h3>
-                        <p class="project__description"> Online destination for E-commerce website. Our platform offers a diverse array of 
-                            products across various departments, including electronics, fashion, home essentials, 
-                            groceries, and more. Experience seamless browsing, easy navigation, and secure 
-                            transactions as you explore our extensive catalog. Each product is meticulously presented 
-                            with detailed descriptions, vibrant images, and competitive pricing, ensuring you make 
-                            informed decisions. Utilize our advanced search and filtering tools to find exactly what you 
-                            need, while our responsive design ensures a smooth shopping experience across all devices. 
-                            Take advantage of exclusive deals, promotions, and loyalty rewards tailored to enhance 
-                            your shopping journey. Whether you're restocking your pantry, updating your wardrobe, or 
-                            discovering the latest gadgets, our platform provides the convenience and variety you crave. 
-                            Start your online shopping adventure today and enjoy the ease and comfort of departmental 
-                            store shopping from anywhere..</p>
+                        <p class="project__description">Here’s the simplest version:
+
+                            "Our online store has electronics, clothes, and groceries. It’s easy and safe to shop. Find what you need fast and enjoy deals. Whether you need food, clothes, or gadgets, our store makes shopping easy. Start shopping from home now."</p>
                         <a href="https://github.com/Aravindh126/e-commerce" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="service" class="section service">
             <div class="container">
               <div class="section__header">
@@ -208,9 +200,11 @@
                   <div class="service__icon">
                     <h3>Certification:</h3><br>
                     <li>Infosys Springboard Certificates</li><br>
-                    <a href="file:///C:/aravind%20portfolio/responsive-portfolio-website-main/assets/img/infrosys.pdf" class="btn btn--primary">Know More</a><br><br>
+                    <button class="cerbtn"><a href="infrosys.pdf">View</a></button><br><br>
+                    </div>
+                    <div class="service__icon">
                     <li>Coursera Certificates</li><br>
-                    <a href="file:///C:/aravind%20portfolio/responsive-portfolio-website-main/assets/img/cousera.pdf" class="btn btn--primary">Know More</a>
+                    <button class="cerbtn"><a href="cousera.pdf">View</button></a>
                   </div>
                 </div>
     
@@ -218,74 +212,58 @@
                   <div class="service__icon">
                     <h3>Workshop:</h3><br>
                     <li>Data Analytics at Rathinam College,Coimbatore</li><br>
-                    <a href="file:///C:/aravind%20portfolio/responsive-portfolio-website-main/assets/img/rathinam.pdf" target="_blank" class="btn btn--primary">Know More</a><br><br>
+                    <button class="cerbtn"><a href="rathinam.pdf" target="_blank">View</a></button><br><br>
+                    </div>
+                    <div class="service__icon">
                     <li>Iot at ETS Academy,Erode</li><br>
-                    <a href="file:///C:/aravind%20portfolio/responsive-portfolio-website-main/assets/img/network.pdf" target="_blank" class="btn btn--primary">Know More</a>
+                    <button class="cerbtn"><a href="Iot.pdf" target="_blank" >View</a></button>
                   </div>
                 </div>
     
                 <div class="service__card">
                   <div class="service__icon">
-                    <h3>Inplant Training:</h3>
-                      <li>Networking at ETS Academy,Erode</li>
-                      <a href="file:///C:/aravind%20portfolio/responsive-portfolio-website-main/assets/img/network.pdf" target="_blank" class="btn btn--primary">Know More</a><br><br>
-                    <h3>Internship:</h3>
-                      <li>Full stack web development at Ether Infotech,Coimbatore</li>
-                      <a href="D:\portfolio\profile\assets\img\internship.jpg" target="_blank" class="btn btn--primary">Know More</a>
+                    <h3>Inplant Training:</h3><br>
+                      <li>Networking at ETS Academy,Erode</li><br>
+                      <button class="cerbtn"><a href="network.pdf" target="_blank" >view</a></button><br><br>
+                </div>
+                <div class="service__icon">
+                    <h3>Internship:</h3><br>
+                      <li>Full stack web development at Ether Infotech,Coimbatore</li><br>
+                      <button class="cerbtn"><a href="internship.jpg" target="_blank">View</a></button>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
-
         <!--======= Contact =======-->
         <section id="contact" class="section contact">
-            <div class="container">
-                <div class="d-grid contact__wrapper">
-                    <div class="contact__content">
-                        <h2 class="contact__title">Interested in working together? Let's talk</h2>
-                        <p class="contact__description">
-                            It provides a convenient way for potential clients to view your work while also allowing you
-                            to expand on your skills and services.
-                        </p>
-                    </div>
-                    <div class="contact__btn">
-                        <button>
-                        <a type="button" href="contact.html" class="btn btn--secondary">Get in touch</a>
-                        </button>
-                    </div>
+            <div class="container1">
+                <div class="section__header">
+                    <h2 class="section__title1">Contact Me</h2>
+                </div>
+                <div class="contact__wrapper">
+                    <form action="#" method="post" class="contact__form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Name</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="form__button">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
+        
     </main>
-    <!--======== footer =====-->
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="d-grid footer__wrapper">
-                <div class="footer__content">
-                    <h4 class="footer__title">Follow Me</h4>
-                    <ul class="footer__social-list">
-                        <li class="footer__social-item">
-                            <a href="#" class="footer__social-link">
-                        <li class="footer__social-item">
-                            <a href="#" class="footer__social-link">
-                                <i class="ri-github-fill"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__content">
-                    <h4 class="footer__title">Email Me</h4>
-                    <a href="#" class="footer__contact">boopathiaravind3@gmail.com</a>
-                </div>
-                <div class="footer__content">
-                    <h4 class="footer__title">Call Me</h4>
-                    <a href="#" class="footer__contact">9025008779</a>
-                </div>
-            </div>
-            <p class="footer__copyright">&copy; 2023 Copyright. All Rights Reserved</p>
-        </div>
+    
+            
     </footer>
 
     <!--======= SwiperJS  ======-->
